@@ -26,7 +26,7 @@ export const brandService = {
     });
   },
 
-  async findAll() {
+  async findAll() { 
     return brandRepository.findAll();
   },
 

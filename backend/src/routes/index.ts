@@ -4,6 +4,8 @@ import authRoutes from "@/modules/auth";
 import categoryRoutes from "@/modules/categories";
 import brandRoutes from "@/modules/brands";
 import productRoutes from "@/modules/products";
+import cartRoutes from "@/modules/carts";
+import orderRoutes from "@/modules/orders";
 
 const router = Router();
 
@@ -11,5 +13,7 @@ router.use("/auth", authRoutes);
 router.use("/categories", categoryRoutes);
 router.use("/brands", brandRoutes);
 router.use("/products", productRoutes);
+router.use("/cart", cartRoutes);
+router.use("/orders", orderRoutes);
 
 export default router;
